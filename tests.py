@@ -10,8 +10,8 @@ class TestCalculator(unittest.TestCase):
 
 
     def test_substract(self):
-        self.assertEqual(add(3,2), 1)
-        self.assertEqual(add(-1,1), -2)
+        self.assertEqual(substract(3,2), 1)
+        self.assertEqual(substract(-1,1), -2)
 
 
     def test_multiple(self):
